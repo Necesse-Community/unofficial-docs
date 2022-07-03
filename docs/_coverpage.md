@@ -1,0 +1,9 @@
+<!-- _coverpage.md -->
+
+![logo](https://necessewiki.com/images/5/54/Logo_Bare.png)
+
+# <large>Necesse community modding documentation</large> <small>0.1</small>
+
+Supporting the Necessee modding community with tips, documentation and general information on modding Necesse
+
+[GitHub
