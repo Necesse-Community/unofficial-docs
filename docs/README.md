@@ -1,3 +1,3 @@
-# Headline
+# About
 
-[Doc site](https://necesse-modding-community.github.io/Necesse-Community-Docs/#/)
+An unofficial modding guide maintained by the Necesse modding communnity
