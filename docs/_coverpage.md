@@ -6,4 +6,4 @@
 
 Supporting the Necessee modding community with tips, documentation and general information on modding Necesse
 
-[GitHub](https://github.com/Necesse-Community/unofficial-docshttps://github.com/Necesse-Modding-Community/Necesse-Community-Docs)
+[GitHub](https://github.com/Necesse-Community/unofficial-docs)
