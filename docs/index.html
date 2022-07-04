@@ -20,7 +20,23 @@
         sync: true,
         persist: true,
         tabHeadings: true,
-      }
+      },
+      plugins: [
+      function (hook, vm) {
+          hook.beforeEach(function (html) {
+            if (/githubusercontent\.com/.test(vm.route.file)) {
+              url = vm.route.file
+                .replace('raw.githubusercontent.com', 'github.com')
+                .replace(/\/main/, '/blob/main')
+            } else {
+              url = 'https://github.com/Necesse-Community/unofficial-docs/tree/main/docs/' + vm.route.file
+            }
+            var editHtml = '[:memo: Edit](' + url + ')\n'
+
+            return editHtml + html
+          })
+        },
+      ],
     }
   </script>
   <!-- Docsify v4 -->
@@ -31,5 +47,7 @@
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-example-panels"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
+
 </body>
 </html>
