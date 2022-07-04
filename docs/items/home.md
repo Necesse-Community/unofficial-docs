@@ -18,7 +18,19 @@ The **first** is to create a new class derived from an existing `Item` class whe
 
 Different `Item` classes may provide you with access to override different methods, this is listed in the **item specific sections**.
 
-For more examples you can check the [**official java example repo**](https://github.com/DrFair/ExampleMod) or [**unofficial kotlin mod example**](https://github.com/DraSouls/Necesse-KtExampleMod)
+<!--  TODO: Move to Setup section --->
+For more examples you can check out the following
+
+> Java mod repositories
+
+- [**official java example repo**](https://github.com/DrFair/ExampleMod) 
+- [**community java mod starter project**](https://github.com/Necesse-Community/ModStarter)
+
+
+> Kotlin mod repositories
+
+- [**unofficial kotlin mod example by Lyrth**](https://github.com/DraSouls/Necesse-KtExampleMod)
+
 <!-- div:right-panel -->
 <!-- tabs:start -->
 #### **Java**
