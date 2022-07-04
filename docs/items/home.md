@@ -58,7 +58,7 @@ class MySwordItem(int dmg) :
 <!-- panels:end -->
 The **second** is to **register** an item using an existing `Item` class, and supplying custom data through the constructor. This is far less extensible, but allows you to create simple items very quickly. For most people, this option may be sufficient. 
 
-For more information on registering items, see [**Registering Items**](hme?id=registering-items)
+For more information on registering items, see [**Registering Items**](/items/home?id=registering-items)
 
 #### Types of items
 ---
