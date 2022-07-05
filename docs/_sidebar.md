@@ -3,7 +3,7 @@
   - [Setting up your environment](/getting-started/setup.md)
   - [Using Kotlin](/getting-started/using-kotlin.md)
   - [Using Java](/getting-started/using-java.md)
-  - [Contributing](/CONTRIBUTING.md)
+  - [Contributing](/contributing.md)
 - Documentation
   - [Adding Items](/items/home.md)
     - [Armor](/items/armor.md)
