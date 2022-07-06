@@ -17,4 +17,5 @@
   - [UI and Containers](/ui/home.md)
     - [Forms](/ui/forms.md)
     - [Containers](/ui/containers.md)
-
+- Resources
+  - [Sprites and Textures](resources/texturing.md)
